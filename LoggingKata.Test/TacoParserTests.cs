@@ -38,16 +38,16 @@ namespace LoggingKata.Test
         }
 
 
-        /*TODO: Create a test ShouldParseLatitude
+        //TODO: Create a test ShouldParseLatitude
         [Theory]
-        [InlineData]("34.073638, -84.677017, Taco Bell Acwort...", 34.073638);
+        [InlineData("34.073638, -84.677017, Taco Bell Acwort...", 34.073638)]
         public void shouldParseLatitude(string line, double expected)
-            {
+        {
             var tester = new TacoParser();
 
             var actual = tester.Parse(line);
 
             Assert.Equal(expected, actual.Location.Latitude);
-            }*/
+        }
     }
 }

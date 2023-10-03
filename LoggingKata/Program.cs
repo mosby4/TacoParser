@@ -82,7 +82,7 @@ namespace LoggingKata
             // If the distance is greater than the currently saved distance, update the distance and the two `ITrackable` variables you set above
 
             // Once you've looped through everything, you've found the two Taco Bells farthest away from each other.
-            logger.LogInfo($"{tacoBell_1} and {tacoBell_2} are the farthest apart.");
+            logger.LogInfo($"{tacoBell_1.Name} and {tacoBell_2.Name} are the farthest apart.");
 
             
         }
